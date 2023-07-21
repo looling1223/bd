@@ -5,127 +5,183 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: mahdibland-🏁RELAY-172.67.172.71-2239, server: hk.mlxg.org, port: 80, type: vmess, uuid: c7442852-5a48-4456-8783-b7b8eebbca6c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg1.mlxg.org}}, udp: true}
-  - {name: mahdibland-🏁RELAY-104.16.165.235-0193, server: cfcdn3.sanfencdn.net, port: 2052, type: vmess, uuid: 0e1215e4-aa7a-47ac-bbf9-27b84565eee5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: sg4.sanfencdn2.com}}, udp: true}
-  - {name: "peasoft-13,15,16,18,19|github.com/freefq - 美国CloudFla... #1", server: cfcdn3.sanfencdn.net, port: 2052, type: vmess, uuid: 0e1215e4-aa7a-47ac-bbf9-27b84565eee5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: sg4.sanfencdn2.com}}, udp: true}
-  - {name: "peasoft-11,13,15,16|美国CloudFlare公司CDN节点(shopify) 1...", server: dongtaiwang3.com, port: 443, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}, udp: true}
-  - {name: bardiafa-🏁RELAY-172.67.172.71-0667, server: us.mlxg.org, port: 80, type: vmess, uuid: c7442852-5a48-4456-8783-b7b8eebbca6c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg1.mlxg.org}}, udp: true}
-  - {name: bardiafa-🏁RELAY-172.64.107.243-0422, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
-  - {name: mahdibland-🏁RELAY-104.21.88.37-0666, server: sg.mlxg.org, port: 80, type: vmess, uuid: c7442852-5a48-4456-8783-b7b8eebbca6c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg1.mlxg.org}}, udp: true}
-  - {name: "peasoft-13,16|github.com/freefq - 美国CloudFla... #3", server: dongtaiwang2.com, port: 443, type: vmess, uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: 2.freek1.xyz}}, udp: true}
-  - {name: "peasoft-0,15|🇩🇪 _FR_法国->🇩🇪_DE_德国", server: amszxc.66666654.xyz, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
   - {name: peasoft-12|美国 007, server: 38.26.135.10, port: 44942, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: mahdibland-🏁RELAY-104.21.88.37-0644, server: sg.mlxg.org, port: 80, type: vmess, uuid: c7442852-5a48-4456-8783-b7b8eebbca6c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp2.mlxg.org}}, udp: true}
   - {name: "peasoft-13,16|github.com/freefq - 美国加利福尼亚州洛杉... #2", server: 108.166.203.183, port: 44945, type: vmess, uuid: 268a491b-764c-44d1-81a4-30de16130867, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: peasoft-12|美国 019, server: 142.4.126.70, port: 52212, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "peasoft-6,7,12,16,23|香港【付费推荐：https://tt.vg/vip】134", server: 156.245.8.234, port: 49155, type: vmess, uuid: 6193116d-96f9-4d7a-9be5-5bb06a69af0b, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: mahdibland-🏁RELAY-172.67.172.71-2239, server: hk.mlxg.org, port: 80, type: vmess, uuid: c7442852-5a48-4456-8783-b7b8eebbca6c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg1.mlxg.org}}, udp: true}
   - {name: "peasoft-12,16|美国 010", server: 108.186.192.232, port: 45502, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "peasoft-15,16|🇺🇸_US_美国_科网_20", server: 45.199.138.166, port: 55016, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "peasoft-15,15,15,16,23|🇺🇸_US_美国_yui科技_21", server: 137.175.18.90, port: 42002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: peasoft-16|五叶节点分享频道 @hkaa0 |美国, server: 156.225.67.207, port: 48123, type: vmess, uuid: d7735058-1dac-4618-99ff-0aa0441ec2d7, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "peasoft-1,2,3,4,11,23|_US_美国 23", server: 142.4.97.71, port: 44942, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: peasoft-15|🇭🇰_HK_香港_21, server: 156.245.8.131, port: 31920, type: vmess, uuid: bd249e37-7359-41ee-84a7-09e49e0ec5c4, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: mahdibland-🏁RELAY-104.16.165.235-0193, server: cfcdn3.sanfencdn.net, port: 2052, type: vmess, uuid: 0e1215e4-aa7a-47ac-bbf9-27b84565eee5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: sg4.sanfencdn2.com}}, udp: true}
+  - {name: "peasoft-13,15,16,18,19|github.com/freefq - 美国CloudFla... #1", server: cfcdn3.sanfencdn.net, port: 2052, type: vmess, uuid: 0e1215e4-aa7a-47ac-bbf9-27b84565eee5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: sg4.sanfencdn2.com}}, udp: true}
   - {name: peasoft-16|US 77 → tg@nicevpn123, server: 137.175.63.135, port: 59009, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: bardiafa-🏁RELAY-172.67.172.71-0667, server: us.mlxg.org, port: 80, type: vmess, uuid: c7442852-5a48-4456-8783-b7b8eebbca6c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg1.mlxg.org}}, udp: true}
+  - {name: bardiafa-🏁RELAY-172.64.107.243-0422, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
   - {name: "peasoft-1,2,3,4,6,7,15|_CN_中国->🇩🇪_DE_德国", server: qzcn2-01.dajuzi.cc, port: 15598, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: mahdibland-🏁RELAY-104.21.88.37-0666, server: sg.mlxg.org, port: 80, type: vmess, uuid: c7442852-5a48-4456-8783-b7b8eebbca6c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg1.mlxg.org}}, udp: true}
+  - {name: "peasoft-11,13,15,16|美国CloudFlare公司CDN节点(shopify) 1...", server: dongtaiwang3.com, port: 443, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}, udp: true}
   - {name: "peasoft-0,15,23|🇺🇸 _US_美国 #12", server: 142.4.97.76, port: 44942, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "peasoft-13,16|github.com/freefq - 美国CloudFla... #3", server: dongtaiwang2.com, port: 443, type: vmess, uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: 2.freek1.xyz}}, udp: true}
   - {name: peasoft-12|美国 021, server: 198.2.203.51, port: 44672, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: peasoft-12|美国 020, server: 142.4.104.196, port: 56000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "peasoft-0,15|🇩🇪 _FR_法国->🇩🇪_DE_德国", server: amszxc.66666654.xyz, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
   - {name: bardiafa-%F0%9F%87%BA%F0%9F%87%B8US-163.123.192.60-0636, server: 163.123.192.60, port: 443, type: trojan, password: 7ad2a5e0-906b-4b3e-97bb-b5f3992cb19d, sni: 20-24-33-134.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 8DKJ|tg频道:@Zyw_Channel, server: pqawszf.aiopen.cfd, port: 443, type: trojan, password: 7ad2a5e0-906b-4b3e-97bb-b5f3992cb19d, sni: us2.pqjc.site, skip-cert-verify: true, udp: true}
+  - {name: 8DKJ|@Zyw_Channel, server: cf-lt.sharecentre.online, port: 8080, type: vmess, uuid: dd87d362-dba1-49aa-9c73-87c828f372d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v01.ssrsub.com}}, udp: true}
+  - {name: _US_美国, server: 167.160.91.118, port: 10077, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, udp: true}
+  - {name: YD|TG频道内随机时间更新订阅地址, server: 156.245.8.234, port: 49155, type: vmess, uuid: 6193116d-96f9-4d7a-9be5-5bb06a69af0b, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare公司CDN节点(shopify) 3, server: dongtaiwang2.com, port: 443, type: vmess, uuid: 25a9f3b9-1e6d-40bd-968b-e0818c1b196f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: 2.freek1.xyz}}, udp: true}
+  - {name: _SG_新加坡, server: pqawszf.aiopen.cfd, port: 443, type: trojan, password: 7ad2a5e0-906b-4b3e-97bb-b5f3992cb19d, sni: us1.pqjc.site, skip-cert-verify: true, udp: true}
+  - {name: 8DKJ|@Zyw_Channel 2, server: 156.249.18.37, port: 48222, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 8DKJ|tg频道:@Zyw_Channel 2, server: speedip.eu.org, port: 8080, type: vmess, uuid: dd87d362-dba1-49aa-9c73-87c828f372d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v01.ssrsub.com}}, udp: true}
+  - {name: 8DKJ|tg频道:@Zyw_Channel 3, server: 139.59.1.39, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: MWiIVYCyO8FfybKWhjt9Sz, udp: true}
+  - {name: 8DKJ|www.zyw.asia ZYW免费节点, server: dongtaiwang3.com, port: 443, type: vmess, uuid: 6deddb7f-e557-42db-bfa0-cf40b36b27e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dongtaiwang.com, headers: {Host: d.freeh1.xyz}}, udp: true}
+  - {name: YD|TG频道内随机时间更新订阅地址 2, server: 156.249.18.37, port: 48222, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YD|www.zyw.asia ZYW免费节点, server: amszxc.66666654.xyz, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}, udp: true}
+  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 1, server: 108.166.203.183, port: 44945, type: vmess, uuid: 268a491b-764c-44d1-81a4-30de16130867, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 南非豪登省约翰内斯堡 Cloudinnovation数据中心, server: 156.249.18.37, port: 48222, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - mahdibland-🏁RELAY-172.67.172.71-2239
-      - mahdibland-🏁RELAY-104.16.165.235-0193
-      - "peasoft-13,15,16,18,19|github.com/freefq - 美国CloudFla... #1"
-      - peasoft-11,13,15,16|美国CloudFlare公司CDN节点(shopify) 1...
-      - bardiafa-🏁RELAY-172.67.172.71-0667
-      - bardiafa-🏁RELAY-172.64.107.243-0422
-      - mahdibland-🏁RELAY-104.21.88.37-0666
-      - "peasoft-13,16|github.com/freefq - 美国CloudFla... #3"
-      - peasoft-0,15|🇩🇪 _FR_法国->🇩🇪_DE_德国
       - peasoft-12|美国 007
       - mahdibland-🏁RELAY-104.21.88.37-0644
       - "peasoft-13,16|github.com/freefq - 美国加利福尼亚州洛杉... #2"
       - peasoft-12|美国 019
       - peasoft-6,7,12,16,23|香港【付费推荐：https://tt.vg/vip】134
+      - mahdibland-🏁RELAY-172.67.172.71-2239
       - peasoft-12,16|美国 010
       - peasoft-15,16|🇺🇸_US_美国_科网_20
       - peasoft-15,15,15,16,23|🇺🇸_US_美国_yui科技_21
       - peasoft-16|五叶节点分享频道 @hkaa0 |美国
       - peasoft-1,2,3,4,11,23|_US_美国 23
       - peasoft-15|🇭🇰_HK_香港_21
+      - mahdibland-🏁RELAY-104.16.165.235-0193
+      - "peasoft-13,15,16,18,19|github.com/freefq - 美国CloudFla... #1"
       - peasoft-16|US 77 → tg@nicevpn123
+      - bardiafa-🏁RELAY-172.67.172.71-0667
+      - bardiafa-🏁RELAY-172.64.107.243-0422
       - peasoft-1,2,3,4,6,7,15|_CN_中国->🇩🇪_DE_德国
+      - mahdibland-🏁RELAY-104.21.88.37-0666
+      - peasoft-11,13,15,16|美国CloudFlare公司CDN节点(shopify) 1...
       - "peasoft-0,15,23|🇺🇸 _US_美国 #12"
+      - "peasoft-13,16|github.com/freefq - 美国CloudFla... #3"
       - peasoft-12|美国 021
       - peasoft-12|美国 020
+      - peasoft-0,15|🇩🇪 _FR_法国->🇩🇪_DE_德国
       - bardiafa-%F0%9F%87%BA%F0%9F%87%B8US-163.123.192.60-0636
+      - 8DKJ|tg频道:@Zyw_Channel
+      - 8DKJ|@Zyw_Channel
+      - _US_美国
+      - YD|TG频道内随机时间更新订阅地址
+      - github.com/freefq - 美国CloudFlare公司CDN节点(shopify) 3
+      - _SG_新加坡
+      - 8DKJ|@Zyw_Channel 2
+      - 8DKJ|tg频道:@Zyw_Channel 2
+      - 8DKJ|tg频道:@Zyw_Channel 3
+      - 8DKJ|www.zyw.asia ZYW免费节点
+      - YD|TG频道内随机时间更新订阅地址 2
+      - YD|www.zyw.asia ZYW免费节点
+      - github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 1
+      - 南非豪登省约翰内斯堡 Cloudinnovation数据中心
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - mahdibland-🏁RELAY-172.67.172.71-2239
-      - mahdibland-🏁RELAY-104.16.165.235-0193
-      - "peasoft-13,15,16,18,19|github.com/freefq - 美国CloudFla... #1"
-      - peasoft-11,13,15,16|美国CloudFlare公司CDN节点(shopify) 1...
-      - bardiafa-🏁RELAY-172.67.172.71-0667
-      - bardiafa-🏁RELAY-172.64.107.243-0422
-      - mahdibland-🏁RELAY-104.21.88.37-0666
-      - "peasoft-13,16|github.com/freefq - 美国CloudFla... #3"
-      - peasoft-0,15|🇩🇪 _FR_法国->🇩🇪_DE_德国
       - peasoft-12|美国 007
       - mahdibland-🏁RELAY-104.21.88.37-0644
       - "peasoft-13,16|github.com/freefq - 美国加利福尼亚州洛杉... #2"
       - peasoft-12|美国 019
       - peasoft-6,7,12,16,23|香港【付费推荐：https://tt.vg/vip】134
+      - mahdibland-🏁RELAY-172.67.172.71-2239
       - peasoft-12,16|美国 010
       - peasoft-15,16|🇺🇸_US_美国_科网_20
       - peasoft-15,15,15,16,23|🇺🇸_US_美国_yui科技_21
       - peasoft-16|五叶节点分享频道 @hkaa0 |美国
       - peasoft-1,2,3,4,11,23|_US_美国 23
       - peasoft-15|🇭🇰_HK_香港_21
+      - mahdibland-🏁RELAY-104.16.165.235-0193
+      - "peasoft-13,15,16,18,19|github.com/freefq - 美国CloudFla... #1"
       - peasoft-16|US 77 → tg@nicevpn123
+      - bardiafa-🏁RELAY-172.67.172.71-0667
+      - bardiafa-🏁RELAY-172.64.107.243-0422
       - peasoft-1,2,3,4,6,7,15|_CN_中国->🇩🇪_DE_德国
+      - mahdibland-🏁RELAY-104.21.88.37-0666
+      - peasoft-11,13,15,16|美国CloudFlare公司CDN节点(shopify) 1...
       - "peasoft-0,15,23|🇺🇸 _US_美国 #12"
+      - "peasoft-13,16|github.com/freefq - 美国CloudFla... #3"
       - peasoft-12|美国 021
       - peasoft-12|美国 020
+      - peasoft-0,15|🇩🇪 _FR_法国->🇩🇪_DE_德国
       - bardiafa-%F0%9F%87%BA%F0%9F%87%B8US-163.123.192.60-0636
+      - 8DKJ|tg频道:@Zyw_Channel
+      - 8DKJ|@Zyw_Channel
+      - _US_美国
+      - YD|TG频道内随机时间更新订阅地址
+      - github.com/freefq - 美国CloudFlare公司CDN节点(shopify) 3
+      - _SG_新加坡
+      - 8DKJ|@Zyw_Channel 2
+      - 8DKJ|tg频道:@Zyw_Channel 2
+      - 8DKJ|tg频道:@Zyw_Channel 3
+      - 8DKJ|www.zyw.asia ZYW免费节点
+      - YD|TG频道内随机时间更新订阅地址 2
+      - YD|www.zyw.asia ZYW免费节点
+      - github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 1
+      - 南非豪登省约翰内斯堡 Cloudinnovation数据中心
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - mahdibland-🏁RELAY-172.67.172.71-2239
-      - mahdibland-🏁RELAY-104.16.165.235-0193
-      - "peasoft-13,15,16,18,19|github.com/freefq - 美国CloudFla... #1"
-      - peasoft-11,13,15,16|美国CloudFlare公司CDN节点(shopify) 1...
-      - bardiafa-🏁RELAY-172.67.172.71-0667
-      - bardiafa-🏁RELAY-172.64.107.243-0422
-      - mahdibland-🏁RELAY-104.21.88.37-0666
-      - "peasoft-13,16|github.com/freefq - 美国CloudFla... #3"
-      - peasoft-0,15|🇩🇪 _FR_法国->🇩🇪_DE_德国
       - peasoft-12|美国 007
       - mahdibland-🏁RELAY-104.21.88.37-0644
       - "peasoft-13,16|github.com/freefq - 美国加利福尼亚州洛杉... #2"
       - peasoft-12|美国 019
       - peasoft-6,7,12,16,23|香港【付费推荐：https://tt.vg/vip】134
+      - mahdibland-🏁RELAY-172.67.172.71-2239
       - peasoft-12,16|美国 010
       - peasoft-15,16|🇺🇸_US_美国_科网_20
       - peasoft-15,15,15,16,23|🇺🇸_US_美国_yui科技_21
       - peasoft-16|五叶节点分享频道 @hkaa0 |美国
       - peasoft-1,2,3,4,11,23|_US_美国 23
       - peasoft-15|🇭🇰_HK_香港_21
+      - mahdibland-🏁RELAY-104.16.165.235-0193
+      - "peasoft-13,15,16,18,19|github.com/freefq - 美国CloudFla... #1"
       - peasoft-16|US 77 → tg@nicevpn123
+      - bardiafa-🏁RELAY-172.67.172.71-0667
+      - bardiafa-🏁RELAY-172.64.107.243-0422
       - peasoft-1,2,3,4,6,7,15|_CN_中国->🇩🇪_DE_德国
+      - mahdibland-🏁RELAY-104.21.88.37-0666
+      - peasoft-11,13,15,16|美国CloudFlare公司CDN节点(shopify) 1...
       - "peasoft-0,15,23|🇺🇸 _US_美国 #12"
+      - "peasoft-13,16|github.com/freefq - 美国CloudFla... #3"
       - peasoft-12|美国 021
       - peasoft-12|美国 020
+      - peasoft-0,15|🇩🇪 _FR_法国->🇩🇪_DE_德国
       - bardiafa-%F0%9F%87%BA%F0%9F%87%B8US-163.123.192.60-0636
+      - 8DKJ|tg频道:@Zyw_Channel
+      - 8DKJ|@Zyw_Channel
+      - _US_美国
+      - YD|TG频道内随机时间更新订阅地址
+      - github.com/freefq - 美国CloudFlare公司CDN节点(shopify) 3
+      - _SG_新加坡
+      - 8DKJ|@Zyw_Channel 2
+      - 8DKJ|tg频道:@Zyw_Channel 2
+      - 8DKJ|tg频道:@Zyw_Channel 3
+      - 8DKJ|www.zyw.asia ZYW免费节点
+      - YD|TG频道内随机时间更新订阅地址 2
+      - YD|www.zyw.asia ZYW免费节点
+      - github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 1
+      - 南非豪登省约翰内斯堡 Cloudinnovation数据中心
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -144,32 +200,46 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - mahdibland-🏁RELAY-172.67.172.71-2239
-      - mahdibland-🏁RELAY-104.16.165.235-0193
-      - "peasoft-13,15,16,18,19|github.com/freefq - 美国CloudFla... #1"
-      - peasoft-11,13,15,16|美国CloudFlare公司CDN节点(shopify) 1...
-      - bardiafa-🏁RELAY-172.67.172.71-0667
-      - bardiafa-🏁RELAY-172.64.107.243-0422
-      - mahdibland-🏁RELAY-104.21.88.37-0666
-      - "peasoft-13,16|github.com/freefq - 美国CloudFla... #3"
-      - peasoft-0,15|🇩🇪 _FR_法国->🇩🇪_DE_德国
       - peasoft-12|美国 007
       - mahdibland-🏁RELAY-104.21.88.37-0644
       - "peasoft-13,16|github.com/freefq - 美国加利福尼亚州洛杉... #2"
       - peasoft-12|美国 019
       - peasoft-6,7,12,16,23|香港【付费推荐：https://tt.vg/vip】134
+      - mahdibland-🏁RELAY-172.67.172.71-2239
       - peasoft-12,16|美国 010
       - peasoft-15,16|🇺🇸_US_美国_科网_20
       - peasoft-15,15,15,16,23|🇺🇸_US_美国_yui科技_21
       - peasoft-16|五叶节点分享频道 @hkaa0 |美国
       - peasoft-1,2,3,4,11,23|_US_美国 23
       - peasoft-15|🇭🇰_HK_香港_21
+      - mahdibland-🏁RELAY-104.16.165.235-0193
+      - "peasoft-13,15,16,18,19|github.com/freefq - 美国CloudFla... #1"
       - peasoft-16|US 77 → tg@nicevpn123
+      - bardiafa-🏁RELAY-172.67.172.71-0667
+      - bardiafa-🏁RELAY-172.64.107.243-0422
       - peasoft-1,2,3,4,6,7,15|_CN_中国->🇩🇪_DE_德国
+      - mahdibland-🏁RELAY-104.21.88.37-0666
+      - peasoft-11,13,15,16|美国CloudFlare公司CDN节点(shopify) 1...
       - "peasoft-0,15,23|🇺🇸 _US_美国 #12"
+      - "peasoft-13,16|github.com/freefq - 美国CloudFla... #3"
       - peasoft-12|美国 021
       - peasoft-12|美国 020
+      - peasoft-0,15|🇩🇪 _FR_法国->🇩🇪_DE_德国
       - bardiafa-%F0%9F%87%BA%F0%9F%87%B8US-163.123.192.60-0636
+      - 8DKJ|tg频道:@Zyw_Channel
+      - 8DKJ|@Zyw_Channel
+      - _US_美国
+      - YD|TG频道内随机时间更新订阅地址
+      - github.com/freefq - 美国CloudFlare公司CDN节点(shopify) 3
+      - _SG_新加坡
+      - 8DKJ|@Zyw_Channel 2
+      - 8DKJ|tg频道:@Zyw_Channel 2
+      - 8DKJ|tg频道:@Zyw_Channel 3
+      - 8DKJ|www.zyw.asia ZYW免费节点
+      - YD|TG频道内随机时间更新订阅地址 2
+      - YD|www.zyw.asia ZYW免费节点
+      - github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 1
+      - 南非豪登省约翰内斯堡 Cloudinnovation数据中心
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -183,95 +253,137 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - mahdibland-🏁RELAY-172.67.172.71-2239
-      - mahdibland-🏁RELAY-104.16.165.235-0193
-      - "peasoft-13,15,16,18,19|github.com/freefq - 美国CloudFla... #1"
-      - peasoft-11,13,15,16|美国CloudFlare公司CDN节点(shopify) 1...
-      - bardiafa-🏁RELAY-172.67.172.71-0667
-      - bardiafa-🏁RELAY-172.64.107.243-0422
-      - mahdibland-🏁RELAY-104.21.88.37-0666
-      - "peasoft-13,16|github.com/freefq - 美国CloudFla... #3"
-      - peasoft-0,15|🇩🇪 _FR_法国->🇩🇪_DE_德国
       - peasoft-12|美国 007
       - mahdibland-🏁RELAY-104.21.88.37-0644
       - "peasoft-13,16|github.com/freefq - 美国加利福尼亚州洛杉... #2"
       - peasoft-12|美国 019
       - peasoft-6,7,12,16,23|香港【付费推荐：https://tt.vg/vip】134
+      - mahdibland-🏁RELAY-172.67.172.71-2239
       - peasoft-12,16|美国 010
       - peasoft-15,16|🇺🇸_US_美国_科网_20
       - peasoft-15,15,15,16,23|🇺🇸_US_美国_yui科技_21
       - peasoft-16|五叶节点分享频道 @hkaa0 |美国
       - peasoft-1,2,3,4,11,23|_US_美国 23
       - peasoft-15|🇭🇰_HK_香港_21
+      - mahdibland-🏁RELAY-104.16.165.235-0193
+      - "peasoft-13,15,16,18,19|github.com/freefq - 美国CloudFla... #1"
       - peasoft-16|US 77 → tg@nicevpn123
+      - bardiafa-🏁RELAY-172.67.172.71-0667
+      - bardiafa-🏁RELAY-172.64.107.243-0422
       - peasoft-1,2,3,4,6,7,15|_CN_中国->🇩🇪_DE_德国
+      - mahdibland-🏁RELAY-104.21.88.37-0666
+      - peasoft-11,13,15,16|美国CloudFlare公司CDN节点(shopify) 1...
       - "peasoft-0,15,23|🇺🇸 _US_美国 #12"
+      - "peasoft-13,16|github.com/freefq - 美国CloudFla... #3"
       - peasoft-12|美国 021
       - peasoft-12|美国 020
+      - peasoft-0,15|🇩🇪 _FR_法国->🇩🇪_DE_德国
       - bardiafa-%F0%9F%87%BA%F0%9F%87%B8US-163.123.192.60-0636
+      - 8DKJ|tg频道:@Zyw_Channel
+      - 8DKJ|@Zyw_Channel
+      - _US_美国
+      - YD|TG频道内随机时间更新订阅地址
+      - github.com/freefq - 美国CloudFlare公司CDN节点(shopify) 3
+      - _SG_新加坡
+      - 8DKJ|@Zyw_Channel 2
+      - 8DKJ|tg频道:@Zyw_Channel 2
+      - 8DKJ|tg频道:@Zyw_Channel 3
+      - 8DKJ|www.zyw.asia ZYW免费节点
+      - YD|TG频道内随机时间更新订阅地址 2
+      - YD|www.zyw.asia ZYW免费节点
+      - github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 1
+      - 南非豪登省约翰内斯堡 Cloudinnovation数据中心
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - mahdibland-🏁RELAY-172.67.172.71-2239
-      - mahdibland-🏁RELAY-104.16.165.235-0193
-      - "peasoft-13,15,16,18,19|github.com/freefq - 美国CloudFla... #1"
-      - peasoft-11,13,15,16|美国CloudFlare公司CDN节点(shopify) 1...
-      - bardiafa-🏁RELAY-172.67.172.71-0667
-      - bardiafa-🏁RELAY-172.64.107.243-0422
-      - mahdibland-🏁RELAY-104.21.88.37-0666
-      - "peasoft-13,16|github.com/freefq - 美国CloudFla... #3"
-      - peasoft-0,15|🇩🇪 _FR_法国->🇩🇪_DE_德国
       - peasoft-12|美国 007
       - mahdibland-🏁RELAY-104.21.88.37-0644
       - "peasoft-13,16|github.com/freefq - 美国加利福尼亚州洛杉... #2"
       - peasoft-12|美国 019
       - peasoft-6,7,12,16,23|香港【付费推荐：https://tt.vg/vip】134
+      - mahdibland-🏁RELAY-172.67.172.71-2239
       - peasoft-12,16|美国 010
       - peasoft-15,16|🇺🇸_US_美国_科网_20
       - peasoft-15,15,15,16,23|🇺🇸_US_美国_yui科技_21
       - peasoft-16|五叶节点分享频道 @hkaa0 |美国
       - peasoft-1,2,3,4,11,23|_US_美国 23
       - peasoft-15|🇭🇰_HK_香港_21
+      - mahdibland-🏁RELAY-104.16.165.235-0193
+      - "peasoft-13,15,16,18,19|github.com/freefq - 美国CloudFla... #1"
       - peasoft-16|US 77 → tg@nicevpn123
+      - bardiafa-🏁RELAY-172.67.172.71-0667
+      - bardiafa-🏁RELAY-172.64.107.243-0422
       - peasoft-1,2,3,4,6,7,15|_CN_中国->🇩🇪_DE_德国
+      - mahdibland-🏁RELAY-104.21.88.37-0666
+      - peasoft-11,13,15,16|美国CloudFlare公司CDN节点(shopify) 1...
       - "peasoft-0,15,23|🇺🇸 _US_美国 #12"
+      - "peasoft-13,16|github.com/freefq - 美国CloudFla... #3"
       - peasoft-12|美国 021
       - peasoft-12|美国 020
+      - peasoft-0,15|🇩🇪 _FR_法国->🇩🇪_DE_德国
       - bardiafa-%F0%9F%87%BA%F0%9F%87%B8US-163.123.192.60-0636
+      - 8DKJ|tg频道:@Zyw_Channel
+      - 8DKJ|@Zyw_Channel
+      - _US_美国
+      - YD|TG频道内随机时间更新订阅地址
+      - github.com/freefq - 美国CloudFlare公司CDN节点(shopify) 3
+      - _SG_新加坡
+      - 8DKJ|@Zyw_Channel 2
+      - 8DKJ|tg频道:@Zyw_Channel 2
+      - 8DKJ|tg频道:@Zyw_Channel 3
+      - 8DKJ|www.zyw.asia ZYW免费节点
+      - YD|TG频道内随机时间更新订阅地址 2
+      - YD|www.zyw.asia ZYW免费节点
+      - github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 1
+      - 南非豪登省约翰内斯堡 Cloudinnovation数据中心
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - mahdibland-🏁RELAY-172.67.172.71-2239
-      - mahdibland-🏁RELAY-104.16.165.235-0193
-      - "peasoft-13,15,16,18,19|github.com/freefq - 美国CloudFla... #1"
-      - peasoft-11,13,15,16|美国CloudFlare公司CDN节点(shopify) 1...
-      - bardiafa-🏁RELAY-172.67.172.71-0667
-      - bardiafa-🏁RELAY-172.64.107.243-0422
-      - mahdibland-🏁RELAY-104.21.88.37-0666
-      - "peasoft-13,16|github.com/freefq - 美国CloudFla... #3"
-      - peasoft-0,15|🇩🇪 _FR_法国->🇩🇪_DE_德国
       - peasoft-12|美国 007
       - mahdibland-🏁RELAY-104.21.88.37-0644
       - "peasoft-13,16|github.com/freefq - 美国加利福尼亚州洛杉... #2"
       - peasoft-12|美国 019
       - peasoft-6,7,12,16,23|香港【付费推荐：https://tt.vg/vip】134
+      - mahdibland-🏁RELAY-172.67.172.71-2239
       - peasoft-12,16|美国 010
       - peasoft-15,16|🇺🇸_US_美国_科网_20
       - peasoft-15,15,15,16,23|🇺🇸_US_美国_yui科技_21
       - peasoft-16|五叶节点分享频道 @hkaa0 |美国
       - peasoft-1,2,3,4,11,23|_US_美国 23
       - peasoft-15|🇭🇰_HK_香港_21
+      - mahdibland-🏁RELAY-104.16.165.235-0193
+      - "peasoft-13,15,16,18,19|github.com/freefq - 美国CloudFla... #1"
       - peasoft-16|US 77 → tg@nicevpn123
+      - bardiafa-🏁RELAY-172.67.172.71-0667
+      - bardiafa-🏁RELAY-172.64.107.243-0422
       - peasoft-1,2,3,4,6,7,15|_CN_中国->🇩🇪_DE_德国
+      - mahdibland-🏁RELAY-104.21.88.37-0666
+      - peasoft-11,13,15,16|美国CloudFlare公司CDN节点(shopify) 1...
       - "peasoft-0,15,23|🇺🇸 _US_美国 #12"
+      - "peasoft-13,16|github.com/freefq - 美国CloudFla... #3"
       - peasoft-12|美国 021
       - peasoft-12|美国 020
+      - peasoft-0,15|🇩🇪 _FR_法国->🇩🇪_DE_德国
       - bardiafa-%F0%9F%87%BA%F0%9F%87%B8US-163.123.192.60-0636
+      - 8DKJ|tg频道:@Zyw_Channel
+      - 8DKJ|@Zyw_Channel
+      - _US_美国
+      - YD|TG频道内随机时间更新订阅地址
+      - github.com/freefq - 美国CloudFlare公司CDN节点(shopify) 3
+      - _SG_新加坡
+      - 8DKJ|@Zyw_Channel 2
+      - 8DKJ|tg频道:@Zyw_Channel 2
+      - 8DKJ|tg频道:@Zyw_Channel 3
+      - 8DKJ|www.zyw.asia ZYW免费节点
+      - YD|TG频道内随机时间更新订阅地址 2
+      - YD|www.zyw.asia ZYW免费节点
+      - github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 1
+      - 南非豪登省约翰内斯堡 Cloudinnovation数据中心
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -287,32 +399,46 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - mahdibland-🏁RELAY-172.67.172.71-2239
-      - mahdibland-🏁RELAY-104.16.165.235-0193
-      - "peasoft-13,15,16,18,19|github.com/freefq - 美国CloudFla... #1"
-      - peasoft-11,13,15,16|美国CloudFlare公司CDN节点(shopify) 1...
-      - bardiafa-🏁RELAY-172.67.172.71-0667
-      - bardiafa-🏁RELAY-172.64.107.243-0422
-      - mahdibland-🏁RELAY-104.21.88.37-0666
-      - "peasoft-13,16|github.com/freefq - 美国CloudFla... #3"
-      - peasoft-0,15|🇩🇪 _FR_法国->🇩🇪_DE_德国
       - peasoft-12|美国 007
       - mahdibland-🏁RELAY-104.21.88.37-0644
       - "peasoft-13,16|github.com/freefq - 美国加利福尼亚州洛杉... #2"
       - peasoft-12|美国 019
       - peasoft-6,7,12,16,23|香港【付费推荐：https://tt.vg/vip】134
+      - mahdibland-🏁RELAY-172.67.172.71-2239
       - peasoft-12,16|美国 010
       - peasoft-15,16|🇺🇸_US_美国_科网_20
       - peasoft-15,15,15,16,23|🇺🇸_US_美国_yui科技_21
       - peasoft-16|五叶节点分享频道 @hkaa0 |美国
       - peasoft-1,2,3,4,11,23|_US_美国 23
       - peasoft-15|🇭🇰_HK_香港_21
+      - mahdibland-🏁RELAY-104.16.165.235-0193
+      - "peasoft-13,15,16,18,19|github.com/freefq - 美国CloudFla... #1"
       - peasoft-16|US 77 → tg@nicevpn123
+      - bardiafa-🏁RELAY-172.67.172.71-0667
+      - bardiafa-🏁RELAY-172.64.107.243-0422
       - peasoft-1,2,3,4,6,7,15|_CN_中国->🇩🇪_DE_德国
+      - mahdibland-🏁RELAY-104.21.88.37-0666
+      - peasoft-11,13,15,16|美国CloudFlare公司CDN节点(shopify) 1...
       - "peasoft-0,15,23|🇺🇸 _US_美国 #12"
+      - "peasoft-13,16|github.com/freefq - 美国CloudFla... #3"
       - peasoft-12|美国 021
       - peasoft-12|美国 020
+      - peasoft-0,15|🇩🇪 _FR_法国->🇩🇪_DE_德国
       - bardiafa-%F0%9F%87%BA%F0%9F%87%B8US-163.123.192.60-0636
+      - 8DKJ|tg频道:@Zyw_Channel
+      - 8DKJ|@Zyw_Channel
+      - _US_美国
+      - YD|TG频道内随机时间更新订阅地址
+      - github.com/freefq - 美国CloudFlare公司CDN节点(shopify) 3
+      - _SG_新加坡
+      - 8DKJ|@Zyw_Channel 2
+      - 8DKJ|tg频道:@Zyw_Channel 2
+      - 8DKJ|tg频道:@Zyw_Channel 3
+      - 8DKJ|www.zyw.asia ZYW免费节点
+      - YD|TG频道内随机时间更新订阅地址 2
+      - YD|www.zyw.asia ZYW免费节点
+      - github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 1
+      - 南非豪登省约翰内斯堡 Cloudinnovation数据中心
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
