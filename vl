@@ -1,0 +1,6 @@
+vless://42743a10-26c2-4609-ba48-d0a4bb28a2e3@asia.looling.asia:443?encryption=none&security=tls&sni=asia.looling.asia&fp=randomized&type=ws&host=asia.looling.asia&path=%2F%3Fed%3D2048#asia.looling.asia
+vless://42743a10-26c2-4609-ba48-d0a4bb28a2e3@104.16.32.0:443?encryption=none&security=tls&sni=asia.looling.asia&fp=randomized&type=ws&host=asia.looling.asia&path=%2F%3Fed%3D2048#asia.looling.asia
+vless://42743a10-26c2-4609-ba48-d0a4bb28a2e3@104.18.0.0:443?encryption=none&security=tls&sni=asia.looling.asia&fp=randomized&type=ws&host=asia.looling.asia&path=%2F%3Fed%3D2048#asia.looling.asia
+vless://43a46f31-ad60-4a12-b4b9-cd72a85a2f3f@jp.looling.asia:443?encryption=none&security=tls&sni=jp.looling.asia&fp=randomized&type=ws&host=jp.looling.asia&path=%2F%3Fed%3D2048#jp.looling.asia
+vless://43a46f31-ad60-4a12-b4b9-cd72a85a2f3f@104.16.32.0:443?encryption=none&security=tls&sni=jp.looling.asia&fp=randomized&type=ws&host=jp.looling.asia&path=%2F%3Fed%3D2048#jp.looling.asia
+vless://43a46f31-ad60-4a12-b4b9-cd72a85a2f3f@104.18.0.0:443?encryption=none&security=tls&sni=jp.looling.asia&fp=randomized&type=ws&host=jp.looling.asia&path=%2F%3Fed%3D2048#jp.looling.asia
